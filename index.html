@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пицца у Виталика - итальянские рецепты с русским юмором</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>Пицца у Виталика</h1>
+            <p class="slogan">Итальянские рецепты с русским юмором</p>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#menu">Меню</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#cart">Корзина</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Самая смешная пицца в городе!</h2>
+            <p>Доставляем улыбки и пиццу в течение 40 минут или следующий заказ бесплатно</p>
+            <button class="order-button">Заказать сейчас</button>
+        </div>
+    </section>
+
+    <section id="menu" class="pizza-menu">
+        <h2>Наше меню</h2>
+        <div class="pizza-grid">
+            <div class="pizza-card">
+                <img src="https://via.placeholder.com/300" alt="Пицца 'Программист на удалёнке'">
+                <h3>"Программист на удалёнке"</h3>
+                <p>Много сыра, острый перец и энергетик. Заряжает на код всю ночь!</p>
+                <p class="price">599 ₽</p>
+                <button class="add-to-cart">В корзину</button>
+            </div>
+            <div class="pizza-card">
+                <img src="https://via.placeholder.com/300" alt="Пицца 'Дедлайн горит'">
+                <h3>"Дедлайн горит"</h3>
+                <p>Огненная пицца с халапеньо, пепперони и табаско. Готовится за 10 минут!</p>
+                <p class="price">649 ₽</p>
+                <button class="add-to-cart">В корзину</button>
+            </div>
+            <div class="pizza-card">
+                <img src="https://via.placeholder.com/300" alt="Пицца 'Отпуск в Сочи'">
+                <h3>"Отпуск в Сочи"</h3>
+                <p>Морепродукты, оливки и лимон. Как будто ты на море, только с пиццей.</p>
+                <p class="price">749 ₽</p>
+                <button class="add-to-cart">В корзину</button>
+            </div>
+            <div class="pizza-card">
+                <img src="https://via.placeholder.com/300" alt="Пицца 'Холостяцкая берлога'">
+                <h3>"Холостяцкая берлога"</h3>
+                <p>Четыре вида мяса, двойной сыр и никаких овощей. Настоящая мужская еда!</p>
+                <p class="price">699 ₽</p>
+                <button class="add-to-cart">В корзину</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-us">
+        <h2>История нашей пиццерии</h2>
+        <div class="about-content">
+            <img src="https://via.placeholder.com/400" alt="Виталик и его команда">
+            <div class="about-text">
+                <p>Всё началось, когда Виталик попробовал приготовить пиццу на спор... С тех пор прошло 5 лет, и теперь мы кормим весь город лучшей пиццей с нелепыми названиями!</p>
+                <p>Наш секрет? Много сыра, отборные ингредиенты и щепотка русского юмора в каждом кусочке.</p>
+                <button class="read-more">Узнать больше о Виталике</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart" class="cart-section hidden">
+        <h2>Ваш заказ</h2>
+        <div class="cart-items">
+            <!-- Здесь будут отображаться товары в корзине -->
+            <p class="empty-cart">Ваша корзина пуста. Добавьте что-нибудь вкусненькое!</p>
+        </div>
+        <div class="cart-total">
+            <p>Итого: <span id="total-price">0</span> ₽</p>
+            <button class="checkout-button">Оформить заказ</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="contact-info">
+                <h3>Контакты</h3>
+                <p>📱 Телефон: +7 (999) 123-45-67</p>
+                <p>📧 Email: pizza@vitalik.ru</p>
+                <p>📍 Адрес: ул. Пицца-мейкеров, д. 42</p>
+            </div>
+            <div class="working-hours">
+                <h3>Время работы</h3>
+                <p>Пн-Чт: 11:00 - 23:00</p>
+                <p>Пт-Вс: 11:00 - 02:00</p>
+            </div>
+            <div class="social-media">
+                <h3>Мы в соцсетях</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">VK</a>
+                    <a href="#" class="social-icon">Telegram</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 Пицца у Виталика. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
